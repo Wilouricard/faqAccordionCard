@@ -31,86 +31,89 @@
       }
     </style>
   </head>
-  <body class="flex items-center justify-center bg-background-violet">
-    <main class="mx-8">
+  <body class="flex items-center justify-center bg-background-violet min-h-screen">
+    <main class="mx-8 max-w-[324px] md:w-2/3 md:max-w-none">
       <div class="flex justify-center">
         <img
           src="./images/illustration-woman-online-mobile.svg"
           alt=""
-          class="translate-y-1/3 w-3/4"
-        />
+          class="-translate-y-[115px] w-[250px] absolute z-10 md:w-[450px] md:-translate-x-[370px] md:translate-y-[30px]"
+         /> 
+        <img src="./images/bg-pattern-mobile.svg" alt="" class="w-[250px] absolute z-0  md:w-[450px] md:-translate-x-[370px] md:translate-y-[250px]">
       </div>
-      <div class="bg-white rounded-3xl p-8">
-        <div class="flex justify-center mt-16">
-          <h1 class="text-5xl font-bold text-blue-dark-desaturated mb-5">
+
+      <div class="bg-white rounded-3xl p-8 md:flex md:flex-col md:pl-[550px] md:pr-28">
+        <div class="flex justify-center mt-24 md:mt-8 md:justify-start">
+          <h1 class="text-5xl font-bold text-blue-dark-desaturated mb-8">
             FAQ
           </h1>
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2 md:gap-4">
           <div class="flex">
-            <h2 id="question" class="text-blue-dark-desaturated mr-auto text-sm">
+            <h2 id="question-one" class="text-blue-dark-desaturated mr-auto text-sm">
               How many team members can I invite?
             </h2>
-            <button id="drop"><img src="./images/icon-arrow-down.svg" alt="" /></button>
+            <button id="drop-one"><img src="./images/icon-arrow-down.svg" alt="" /></button>
           </div>
-          <p id="answer" class="text-blue-dark-grayish">
+          <p id="answer-one" class="text-blue-dark-grayish hidden">
             You can invite up to 2 additional users on the Free plan. There is
             no limit on team members for the Premium plan.
           </p>
           <hr class="text-blue-light" />
+
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2 md:gap-4">
           <div class="flex mt-3">
-            <h2 id="question" class="text-blue-dark-desaturated mr-auto text-sm">
+            <h2 id="question-two" class="text-blue-dark-desaturated mr-auto text-sm">
               What is the maximum file upload size?
             </h2>
-            <button id="drop"><img src="./images/icon-arrow-down.svg" alt="" /></button>
+            <button id="drop-two"><img src="./images/icon-arrow-down.svg" alt="" /></button>
           </div>
-          <p id="answer" class="text-blue-dark-grayish">
+          <p id="answer-two" class="text-blue-dark-grayish hidden">
             No more than 2GB. All files in your account must fit your allotted
             storage space.
           </p>
           <hr class="text-blue-light" />
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2 md:gap-4">
           <div class="flex mt-3">
-            <h2 id="question" class="text-blue-dark-desaturated mr-auto text-sm">
+            <h2 id="question-three" class="text-blue-dark-desaturated mr-auto text-sm">
               How do I reset my password?
             </h2>
-            <button id="drop"><img src="./images/icon-arrow-down.svg" alt="" /></button>
+            <button id="drop-three"><img src="./images/icon-arrow-down.svg" alt="" /></button>
           </div>
-          <p id="answer" class="text-blue-dark-grayish">
+          <p id="answer-three" class="text-blue-dark-grayish hidden">
             Click “Forgot password” from the login page or “Change password”
             from your profile page. A reset link will be emailed to you.
           </p>
           <hr class="text-blue-light" />
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2 md:gap-4">
           <div class="flex mt-3">
-            <h2 id="question" class="text-blue-dark-desaturated mr-auto text-sm">
+            <h2 id="question-four" class="text-blue-dark-desaturated mr-auto text-sm">
               Can I cancel my subscription?
             </h2>
-            <button id="drop"><img src="./images/icon-arrow-down.svg" alt="" /></button>
+            <button id="drop-four"><img src="./images/icon-arrow-down.svg" alt="" /></button>
           </div>
-          <p id="answer" class="text-blue-dark-grayish">
+          <p id="answer-four" class="text-blue-dark-grayish hidden">
             Yes! Send us a message and we’ll process your request no questions
             asked.
           </p>
           <hr class="text-blue-light" />
         </div>
-        <div class="flex flex-col gap-2">
+        <div class="flex flex-col gap-2 md:gap-4">
           <div class="flex mt-3">
-            <h2 id="question" class="text-blue-dark-desaturated mr-auto text-sm">
+            <h2 id="question-five" class="text-blue-dark-desaturated mr-auto text-sm">
               Do you provide additional support?
             </h2>
-            <button id="drop"><img src="./images/icon-arrow-down.svg" alt="" /></button>
+            <button id="drop-five"><img src="./images/icon-arrow-down.svg" alt="" /></button>
           </div>
-          <p id="answer" class="text-blue-dark-grayish">
+          <p id="answer-five" class="text-blue-dark-grayish hidden">
             Chat and email support is available 24/7. Phone lines are open
             during normal business hours.
           </p>
         </div>
-        <div class="attribution mt-5">
+        <div class="attribution mt-5 mb-5">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
             >Frontend Mentor</a
