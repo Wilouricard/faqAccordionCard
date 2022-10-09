@@ -31,24 +31,27 @@
       }
     </style>
   </head>
-  <body class="flex items-center justify-center bg-background-violet min-h-screen">
-    <main class="mx-8 max-w-[324px] md:w-2/3 md:max-w-none">
+  <body class="flex items-center justify-center min-h-screen">
+    <main class="mx-8 w-[800px] lg:w-2/3 lg:max-w-none">
       <div class="flex justify-center">
         <img
           src="./images/illustration-woman-online-mobile.svg"
           alt=""
-          class="-translate-y-[115px] w-[250px] absolute z-10 md:w-[450px] md:-translate-x-[370px] md:translate-y-[30px]"
+          class="-translate-y-[115px] w-[250px] absolute z-10 lg:w-[450px] lg:-translate-x-[370px] lg:translate-y-[30px] lg:hidden"
          /> 
-        <img src="./images/bg-pattern-mobile.svg" alt="" class="w-[250px] absolute z-0  md:w-[450px] md:-translate-x-[370px] md:translate-y-[250px]">
+        <img src="./images/bg-pattern-mobile.svg" alt="" class="w-[250px] absolute z-0  lg:w-[450px] lg:-translate-x-[370px] lg:translate-y-[250px] lg:hidden">
+        <img src="./images/illustration-woman-online-desktop.svg" alt="" class="-translate-y-[115px] w-[250px] absolute z-0 lg:w-[450px] lg:-translate-x-[370px] lg:translate-y-[30px]">
+        <img src="./images/bg-pattern-desktop.svg" alt="" class="-translate-y-[115px] w-[10px] absolute z-0 lg:w-[450px] lg:-translate-x-[370px] lg:translate-y-[5px] ">
+        <img src="./images/illustration-box-desktop.svg" alt="" class="-translate-y-[50px] w-[10px] absolute z-20 lg:w-[150px] lg:-translate-x-[530px] lg:translate-y-[175px]">
       </div>
 
-      <div class="bg-white rounded-3xl p-8 md:flex md:flex-col md:pl-[550px] md:pr-28">
-        <div class="flex justify-center mt-24 md:mt-8 md:justify-start">
+      <div class="bg-white rounded-3xl p-8 lg:flex lg:flex-col lg:pl-[550px] lg:pr-28">
+        <div class="flex justify-center mt-24 lg:mt-8 lg:justify-start">
           <h1 class="text-5xl font-bold text-blue-dark-desaturated mb-8">
             FAQ
           </h1>
         </div>
-        <div class="flex flex-col gap-2 md:gap-4">
+        <div class="flex flex-col gap-2 lg:gap-4">
           <div class="flex">
             <h2 id="question-one" class="text-blue-dark-desaturated mr-auto text-sm">
               How many team members can I invite?
@@ -62,7 +65,7 @@
           <hr class="text-blue-light" />
 
         </div>
-        <div class="flex flex-col gap-2 md:gap-4">
+        <div class="flex flex-col gap-2 lg:gap-4">
           <div class="flex mt-3">
             <h2 id="question-two" class="text-blue-dark-desaturated mr-auto text-sm">
               What is the maximum file upload size?
@@ -75,7 +78,7 @@
           </p>
           <hr class="text-blue-light" />
         </div>
-        <div class="flex flex-col gap-2 md:gap-4">
+        <div class="flex flex-col gap-2 lg:gap-4">
           <div class="flex mt-3">
             <h2 id="question-three" class="text-blue-dark-desaturated mr-auto text-sm">
               How do I reset my password?
@@ -88,7 +91,7 @@
           </p>
           <hr class="text-blue-light" />
         </div>
-        <div class="flex flex-col gap-2 md:gap-4">
+        <div class="flex flex-col gap-2 lg:gap-4">
           <div class="flex mt-3">
             <h2 id="question-four" class="text-blue-dark-desaturated mr-auto text-sm">
               Can I cancel my subscription?
@@ -101,7 +104,7 @@
           </p>
           <hr class="text-blue-light" />
         </div>
-        <div class="flex flex-col gap-2 md:gap-4">
+        <div class="flex flex-col gap-2 lg:gap-4">
           <div class="flex mt-3">
             <h2 id="question-five" class="text-blue-dark-desaturated mr-auto text-sm">
               Do you provide additional support?
